@@ -1,11 +1,15 @@
 {
   "name": "PavelDemyanenko",
   "author": "Pavel Demyanenko",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "This project is used as code example for people who are interested in my skills.",
   "homepage": "http://www.demyanenko.io",
   "bugs": "conscious.suddens@gmail.com",
-  "keywords": ["front end", "angulr.js", "mean stack"],
+  "keywords": [
+    "front end",
+    "angular.js",
+    "mean stack"
+  ],
   "contributors": [
     "Pavel Demyanenko <conscious.suddens@gmail.com>"
   ],
@@ -13,7 +17,9 @@
     "type": "git",
     "url": "http://github.com/PavelDemyanenko/demyanenko.io"
   },
-  "dependencies": {},
+  "dependencies": {
+    "sails": "^0.10.5"
+  },
   "devDependencies": {
     "gulp": "~3.8.0",
     "gulp-sass": "~0.7.2",
