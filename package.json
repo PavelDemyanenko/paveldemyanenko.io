@@ -1,6 +1,13 @@
 {
   "name": "paveldemyanenko.com",
-  "version": "0.1.0",
+  "author": "Pavel Demyanenko",
+  "version": "0.1.1",
+  "homepage": "http://www.paveldemyanenko.com",
+  "bugs": "mail@paveldemyanenko.com",
+  "keywords": ["front-end", "portfolio", "website"],
+  "contributors": [
+    "Pavel Demyanenko <mail@paveldemyanenko.com>"
+  ],
   "private": true,
   "dependencies": {
     "react": "^15.5.4",
