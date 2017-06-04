@@ -1,29 +1,18 @@
 {
-  "name": "PavelDemyanenko",
-  "author": "Pavel Demyanenko",
-  "version": "0.6.5",
-  "description": "This project is used as code example for people who are interested in my skills and my portfolio.",
-  "homepage": "http://www.paveldemyanenko.com",
-  "bugs": "mail@paveldemyanenko.com",
-  "keywords": ["front-end", "portfolio", "website"],
-  "contributors": [
-    "Pavel Demyanenko <mail@paveldemyanenko.com>"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/PavelDemyanenko/pho-devstack-website"
+  "name": "paveldemyanenko.com",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   },
-  "dependencies": {},
   "devDependencies": {
-    "gulp": "~3.8.0",
-    "gulp-sass": "*",
-    "coffeeify": "~0.6.0",
-    "pho-devstack": "~1.4.0",
-    "node.extend": "*",
-    "node-bourbon": "*",
-    "node-neat": "*"
+    "react-scripts": "1.0.7"
   },
   "scripts": {
-    "start": "gulp & open dist/index.html"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
